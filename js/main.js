@@ -42,3 +42,6 @@ const generatePhotoDescription = (id) => ({
 
 const createPhotoDescriptions = () => Array.from({ length: 25 }, (_, index) => generatePhotoDescription(index + 1));
 
+const photoDescriptions = createPhotoDescriptions();
+
+console.log(photoDescriptions);
